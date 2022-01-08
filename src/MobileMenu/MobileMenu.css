@@ -1,0 +1,38 @@
+@import url("../global.css");
+
+.mobile-menu {
+  padding: 24px;
+  display: grid;
+  height: 94vh;
+}
+.mobile-menu a {
+  text-decoration: none;
+  color: var(--black);
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.mobile-menu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-top: 24px 0 0;
+  font-size: var(--lg);
+}
+
+.mobile-menu ul li {
+  margin-bottom: 24px;
+}
+.mobile-menu .email {
+  font-size: var(--sm);
+  font-weight: 300;
+}
+.mobile-menu .sign-out {
+  color: var(--hospital-green);
+  font-size: var(--sm);
+}
+
+.mobile-menu ul:nth-child(1) a {
+  border-bottom: 1px solid var(--very-light-pink);
+  margin-bottom: 4px;
+}
